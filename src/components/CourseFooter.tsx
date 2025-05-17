@@ -1,22 +1,54 @@
 
 import React from 'react';
-import { ChevronRight } from 'lucide-react';
+import { ChevronRight, ArrowRight, BadgePercent } from 'lucide-react';
 
 const CourseFooter = () => {
   return (
     <footer className="py-10 relative overflow-hidden circuit-bg">
       <div className="container-custom">
-        <div className="text-center max-w-4xl mx-auto mb-8 px-4">
+        <div className="text-center max-w-4xl mx-auto mb-12 px-4">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Pronto para dominar a automação com IA <span className="glow-text">sem programar?</span>
           </h2>
-          <p className="text-lg text-cyber-gray mb-10">
+          <p className="text-lg text-cyber-gray mb-6">
             Construa agentes de IA, automatize fluxos reais e liberte seu tempo com tecnologia prática.
           </p>
           
-          <a href="#modules" className="cta-button group inline-flex text-lg">
+          {/* Pricing Box */}
+          <div className="mt-8 mb-10 p-6 bg-cyber-dark/70 border border-cyber-bright-green/30 rounded-lg shadow-lg max-w-md mx-auto relative overflow-hidden">
+            {/* Launch Badge */}
+            <div className="absolute -right-12 top-6 bg-cyber-bright-green text-cyber-dark transform rotate-45 px-12 py-1 text-sm font-bold shadow-lg">
+              Lançamento
+            </div>
+            
+            <h3 className="text-2xl font-bold mb-2">Curso Completo n8n</h3>
+            
+            <div className="flex items-center justify-center gap-3 mb-4">
+              <span className="text-cyber-gray line-through text-lg">R$297</span>
+              <span className="text-cyber-bright-green font-bold text-4xl">R$97</span>
+            </div>
+            
+            <p className="text-cyber-gray text-sm mb-6 flex items-center justify-center gap-2">
+              <BadgePercent size={16} className="text-cyber-bright-green" />
+              <span>Preço promocional por tempo limitado</span>
+            </p>
+            
+            <a 
+              href="https://pay.kiwify.com.br/9UkelFt" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="block w-full bg-cyber-green hover:bg-cyber-bright-green text-white py-3 px-6 rounded-md transition-all shadow-lg border border-cyber-bright-green/50 group"
+            >
+              <span className="flex items-center justify-center">
+                Garantir Minha Vaga Agora
+                <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
+              </span>
+            </a>
+          </div>
+          
+          <a href="#modules" className="cta-button group inline-flex text-lg mt-6">
             <span className="relative z-10 flex items-center justify-center">
-              Quero Começar Agora
+              Conhecer o Conteúdo
               <ChevronRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
             </span>
           </a>
