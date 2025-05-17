@@ -24,7 +24,7 @@ const CourseFooter = () => {
         
         <div className="max-w-4xl mx-auto mt-16 pt-8 border-t border-cyber-bright-green/20 text-center">
           <p className="text-cyber-gray text-sm">
-            &copy; {new Date().getFullYear()} n8n Completo - Todos os direitos reservados
+            &copy; {new Date().getFullYear()} n8n Completo - Rafael Borges - Todos os direitos reservados
           </p>
         </div>
       </div>
