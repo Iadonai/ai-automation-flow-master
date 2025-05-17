@@ -8,6 +8,7 @@ import CourseAudience from '../components/CourseAudience';
 import CourseInstructor from '../components/CourseInstructor';
 import CourseGuarantee from '../components/CourseGuarantee';
 import CourseFooter from '../components/CourseFooter';
+import CourseBenefitsExtended from '../components/CourseBenefitsExtended';
 
 const Index = () => {
   // Images for the course - adjust paths as needed
@@ -32,6 +33,9 @@ const Index = () => {
       
       {/* Benefits Section */}
       <CourseBenefits />
+      
+      {/* Extended Benefits Section */}
+      <CourseBenefitsExtended />
       
       {/* Skills Section */}
       <CourseSkills />
