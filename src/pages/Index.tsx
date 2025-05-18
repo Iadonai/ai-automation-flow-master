@@ -33,7 +33,7 @@ const Index = () => {
       {/* Hero Section */}
       <CourseHero mainImage={mainImage} />
       
-      {/* First Tech Marquee */}
+      {/* Tech Marquee */}
       <TechLogosMarquee />
       
       {/* Benefits Section */}
@@ -41,9 +41,6 @@ const Index = () => {
       
       {/* Extended Benefits Section */}
       <CourseBenefitsExtended />
-      
-      {/* Second Tech Marquee (reverse direction) */}
-      <TechLogosMarquee reverse />
       
       {/* Skills Section */}
       <CourseSkills />
