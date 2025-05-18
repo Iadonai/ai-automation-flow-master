@@ -30,7 +30,7 @@ const AnimatedMarquee: React.FC<AnimatedMarqueeProps> = ({
   };
 
   return (
-    <div className={cn("w-full overflow-hidden bg-cyber-dark/70 py-4 border-y border-cyber-bright-green/20", className)}>
+    <div className={cn("w-full overflow-hidden bg-cyber-dark/70 py-3 border-y border-cyber-bright-green/20", className)}>
       <div 
         className="flex items-center whitespace-nowrap"
         style={{ 
@@ -39,7 +39,7 @@ const AnimatedMarquee: React.FC<AnimatedMarqueeProps> = ({
       >
         {/* Duplicamos os itens para criar um fluxo contínuo */}
         {[...items, ...items].map((item, index) => (
-          <div key={index} className="mx-10 inline-flex items-center">
+          <div key={index} className="mx-8 inline-flex items-center">
             {item}
           </div>
         ))}
