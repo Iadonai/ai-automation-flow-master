@@ -10,6 +10,7 @@ import CourseGuarantee from '../components/CourseGuarantee';
 import CourseFooter from '../components/CourseFooter';
 import CourseBenefitsExtended from '../components/CourseBenefitsExtended';
 import CourseFaq from '../components/CourseFaq';
+import TechLogosMarquee from '../components/TechLogosMarquee';
 
 const Index = () => {
   // Images for the course - adjust paths as needed
@@ -32,11 +33,17 @@ const Index = () => {
       {/* Hero Section */}
       <CourseHero mainImage={mainImage} />
       
+      {/* First Tech Marquee */}
+      <TechLogosMarquee />
+      
       {/* Benefits Section */}
       <CourseBenefits />
       
       {/* Extended Benefits Section */}
       <CourseBenefitsExtended />
+      
+      {/* Second Tech Marquee (reverse direction) */}
+      <TechLogosMarquee reverse />
       
       {/* Skills Section */}
       <CourseSkills />
