@@ -1,9 +1,9 @@
 
-import React from 'react';
+import React, { ReactNode } from 'react';
 import { cn } from '@/lib/utils';
 
 interface AnimatedMarqueeProps {
-  items: string[];
+  items: ReactNode[];
   direction?: 'left' | 'right';
   speed?: 'slow' | 'normal' | 'fast';
   className?: string;
