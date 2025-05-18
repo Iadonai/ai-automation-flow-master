@@ -9,6 +9,7 @@ import CourseInstructor from '../components/CourseInstructor';
 import CourseGuarantee from '../components/CourseGuarantee';
 import CourseFooter from '../components/CourseFooter';
 import CourseBenefitsExtended from '../components/CourseBenefitsExtended';
+import CourseFaq from '../components/CourseFaq';
 
 const Index = () => {
   // Images for the course - adjust paths as needed
@@ -45,6 +46,9 @@ const Index = () => {
       
       {/* Audience Section */}
       <CourseAudience />
+      
+      {/* FAQ Section */}
+      <CourseFaq />
       
       {/* Instructor Section */}
       <CourseInstructor />
