@@ -78,6 +78,11 @@ const CourseModules: React.FC<CourseModulesProps> = ({ moduleImages }) => {
       image: moduleImages[7]
     },
     {
+      title: "Flowise",
+      description: "Construa aplicações de IA conversacional com interface visual e drag-and-drop",
+      image: "/lovable-uploads/19d747d4-53ee-4562-93e1-3472e92e1b15.png"
+    },
+    {
       title: "Biblioteca de Templates",
       description: "Acesse uma vasta coleção de templates prontos para suas automações",
       image: "/lovable-uploads/61dfcfa1-38d9-4256-9fae-70f492ab8dac.png"
