@@ -33,16 +33,6 @@ interface CourseModulesProps {
 const CourseModules: React.FC<CourseModulesProps> = ({ moduleImages }) => {
   const modules = [
     {
-      title: "Automações de Vídeo e Imagem",
-      description: "Crie automações poderosas para processamento de vídeos e imagens usando IA",
-      image: "/lovable-uploads/27f7f0f6-287f-4f9f-9fa7-853dcc7d9285.png"
-    },
-    {
-      title: "Biblioteca de Templates",
-      description: "Acesse uma vasta coleção de templates prontos para suas automações",
-      image: "/lovable-uploads/61dfcfa1-38d9-4256-9fae-70f492ab8dac.png"
-    },
-    {
       title: "Boas-Vindas",
       description: "Introdução ao curso e configuração inicial",
       image: moduleImages[0]
@@ -81,6 +71,16 @@ const CourseModules: React.FC<CourseModulesProps> = ({ moduleImages }) => {
       title: "Automação para E-commerce com n8n",
       description: "Crie fluxos automatizados para lojas online e marketplaces",
       image: moduleImages[7]
+    },
+    {
+      title: "Automações de Vídeo e Imagem",
+      description: "Crie automações poderosas para processamento de vídeos e imagens usando IA",
+      image: "/lovable-uploads/27f7f0f6-287f-4f9f-9fa7-853dcc7d9285.png"
+    },
+    {
+      title: "Biblioteca de Templates",
+      description: "Acesse uma vasta coleção de templates prontos para suas automações",
+      image: "/lovable-uploads/61dfcfa1-38d9-4256-9fae-70f492ab8dac.png"
     }
   ];
 
