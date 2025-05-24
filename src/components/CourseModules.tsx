@@ -14,7 +14,7 @@ const ModuleCard: React.FC<ModuleProps> = ({ image, title, description }) => {
         <img 
           src={image} 
           alt={title} 
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-cyber-dark/90 to-transparent"></div>
       </div>
@@ -32,6 +32,16 @@ interface CourseModulesProps {
 
 const CourseModules: React.FC<CourseModulesProps> = ({ moduleImages }) => {
   const modules = [
+    {
+      title: "Automações de Vídeo e Imagem",
+      description: "Crie automações poderosas para processamento de vídeos e imagens usando IA",
+      image: "/lovable-uploads/27f7f0f6-287f-4f9f-9fa7-853dcc7d9285.png"
+    },
+    {
+      title: "Biblioteca de Templates",
+      description: "Acesse uma vasta coleção de templates prontos para suas automações",
+      image: "/lovable-uploads/61dfcfa1-38d9-4256-9fae-70f492ab8dac.png"
+    },
     {
       title: "Boas-Vindas",
       description: "Introdução ao curso e configuração inicial",
