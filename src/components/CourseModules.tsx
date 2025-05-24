@@ -63,6 +63,11 @@ const CourseModules: React.FC<CourseModulesProps> = ({ moduleImages }) => {
       image: moduleImages[5]
     },
     {
+      title: "Automações de Vídeo e Imagem",
+      description: "Crie automações poderosas para processamento de vídeos e imagens usando IA",
+      image: "/lovable-uploads/27f7f0f6-287f-4f9f-9fa7-853dcc7d9285.png"
+    },
+    {
       title: "Inteligência de Mercado com n8n e Instagram",
       description: "Extraia e analise dados do Instagram para insights valiosos",
       image: moduleImages[6]
@@ -71,11 +76,6 @@ const CourseModules: React.FC<CourseModulesProps> = ({ moduleImages }) => {
       title: "Automação para E-commerce com n8n",
       description: "Crie fluxos automatizados para lojas online e marketplaces",
       image: moduleImages[7]
-    },
-    {
-      title: "Automações de Vídeo e Imagem",
-      description: "Crie automações poderosas para processamento de vídeos e imagens usando IA",
-      image: "/lovable-uploads/27f7f0f6-287f-4f9f-9fa7-853dcc7d9285.png"
     },
     {
       title: "Biblioteca de Templates",
