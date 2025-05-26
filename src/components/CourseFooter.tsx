@@ -8,10 +8,10 @@ const CourseFooter = () => {
       <div className="container-custom">
         <div className="text-center max-w-4xl mx-auto mb-12 px-4">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Pronto para dominar a automação com IA <span className="glow-text">sem programar?</span>
+            Pronto para dominar <span className="glow-text">n8n + Make</span> sem programar?
           </h2>
           <p className="text-lg text-cyber-gray mb-6">
-            Construa agentes de IA, automatize fluxos reais e liberte seu tempo com tecnologia prática.
+            Dois cursos completos: construa agentes de IA com n8n e crie automações poderosas com Make. Liberte seu tempo com tecnologia prática.
           </p>
           
           {/* Pricing Box */}
@@ -21,7 +21,7 @@ const CourseFooter = () => {
               Lançamento
             </div>
             
-            <h3 className="text-2xl font-bold mb-2">Curso Completo n8n</h3>
+            <h3 className="text-2xl font-bold mb-2">n8n Completo + Make</h3>
             
             <div className="flex items-center justify-center gap-3 mb-4">
               <span className="text-cyber-gray line-through text-lg">R$297</span>
@@ -56,7 +56,7 @@ const CourseFooter = () => {
         
         <div className="max-w-4xl mx-auto mt-16 pt-8 border-t border-cyber-bright-green/20 text-center">
           <p className="text-cyber-gray text-sm">
-            &copy; {new Date().getFullYear()} n8n Completo - Rafael Borges - Todos os direitos reservados
+            &copy; {new Date().getFullYear()} n8n Completo + Make - Rafael Borges - Todos os direitos reservados
           </p>
         </div>
       </div>

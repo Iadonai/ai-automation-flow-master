@@ -12,7 +12,7 @@ const CourseHero: React.FC<CourseHeroProps> = ({ mainImage }) => {
       <div className="absolute inset-0 z-0">
         <img 
           src={mainImage} 
-          alt="Curso n8n Completo" 
+          alt="Cursos n8n Completo + Make" 
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 hero-gradient"></div>
@@ -21,12 +21,12 @@ const CourseHero: React.FC<CourseHeroProps> = ({ mainImage }) => {
       <div className="container-custom relative z-10 mt-16">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-white">
-            <span className="block">n8n Completo:</span>
-            <span className="block glow-text mt-2">Crie agentes de IA rápido, fácil e sem código</span>
+            <span className="block">n8n Completo: Crie agentes de IA rápido, fácil e sem código</span>
+            <span className="block glow-text mt-2">+ Make (Integromat) – Aprenda a construir automações poderosas sem programar</span>
           </h1>
           
           <p className="text-lg md:text-xl text-cyber-light/90 mb-8 max-w-3xl mx-auto">
-            Automatize tarefas com IA, crie agentes inteligentes no n8n e domine APIs, RAGs e Docker. Tudo sem programar.
+            Dois cursos completos para dominar automação com IA: n8n para criar agentes inteligentes e Make para automações poderosas. Tudo sem programar.
           </p>
           
           <div className="mt-10">
