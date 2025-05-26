@@ -8,7 +8,7 @@ const CourseFooter = () => {
       <div className="container-custom">
         <div className="text-center max-w-4xl mx-auto mb-12 px-4">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">
-            Pronto para dominar <span className="glow-text">n8n</span> + <span className="text-make-purple">Make</span> sem programar?
+            Chegou a hora de dominar o <span className="glow-text">n8n</span> e o <span className="text-make-purple">Make</span> — sem programação, sem complicação.
           </h2>
           <p className="text-lg text-cyber-gray mb-6">
             Dois cursos completos: construa agentes de IA com <span className="text-cyber-bright-green">n8n</span> e crie automações poderosas com <span className="text-make-purple">Make</span>. Liberte seu tempo com tecnologia prática.
