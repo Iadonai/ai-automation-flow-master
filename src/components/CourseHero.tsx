@@ -21,12 +21,14 @@ const CourseHero: React.FC<CourseHeroProps> = ({ mainImage }) => {
       <div className="container-custom relative z-10 mt-16">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-white">
-            <span className="block">n8n Completo: Crie agentes de IA rápido, fácil e sem código</span>
-            <span className="block glow-text mt-2">+ Make (Integromat) – Aprenda a construir automações poderosas sem programar</span>
+            <span className="block">Dois cursos completos para dominar automação:</span>
+            <span className="block glow-text mt-2">n8n Completo</span>
+            <span className="block text-purple-400 mt-1" style={{ textShadow: '0 0 5px rgba(168, 85, 247, 0.5)' }}>+ Make (Integromat)</span>
           </h1>
           
           <p className="text-lg md:text-xl text-cyber-light/90 mb-8 max-w-3xl mx-auto">
-            Dois cursos completos para dominar automação com IA: n8n para criar agentes inteligentes e Make para automações poderosas. Tudo sem programar.
+            <span className="text-cyber-bright-green">n8n:</span> Crie agentes de IA rápido, fácil e sem código<br/>
+            <span className="text-purple-400">Make:</span> Aprenda a construir automações poderosas sem programar
           </p>
           
           <div className="mt-10">

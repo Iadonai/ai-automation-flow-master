@@ -7,11 +7,11 @@ const CourseFooter = () => {
     <footer className="py-10 relative overflow-hidden circuit-bg">
       <div className="container-custom">
         <div className="text-center max-w-4xl mx-auto mb-12 px-4">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Pronto para dominar <span className="glow-text">n8n + Make</span> sem programar?
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">
+            Pronto para dominar <span className="glow-text">n8n</span> + <span className="text-purple-400">Make</span> sem programar?
           </h2>
           <p className="text-lg text-cyber-gray mb-6">
-            Dois cursos completos: construa agentes de IA com n8n e crie automações poderosas com Make. Liberte seu tempo com tecnologia prática.
+            Dois cursos completos: construa agentes de IA com <span className="text-cyber-bright-green">n8n</span> e crie automações poderosas com <span className="text-purple-400">Make</span>. Liberte seu tempo com tecnologia prática.
           </p>
           
           {/* Pricing Box */}
@@ -21,7 +21,9 @@ const CourseFooter = () => {
               Lançamento
             </div>
             
-            <h3 className="text-2xl font-bold mb-2">n8n Completo + Make</h3>
+            <h3 className="text-2xl font-bold mb-2 text-white">
+              <span className="text-cyber-bright-green">n8n Completo</span> + <span className="text-purple-400">Make</span>
+            </h3>
             
             <div className="flex items-center justify-center gap-3 mb-4">
               <span className="text-cyber-gray line-through text-lg">R$297</span>
@@ -56,7 +58,7 @@ const CourseFooter = () => {
         
         <div className="max-w-4xl mx-auto mt-16 pt-8 border-t border-cyber-bright-green/20 text-center">
           <p className="text-cyber-gray text-sm">
-            &copy; {new Date().getFullYear()} n8n Completo + Make - Rafael Borges - Todos os direitos reservados
+            &copy; {new Date().getFullYear()} <span className="text-cyber-bright-green">n8n Completo</span> + <span className="text-purple-400">Make</span> - Rafael Borges - Todos os direitos reservados
           </p>
         </div>
       </div>
