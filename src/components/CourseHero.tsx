@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { ChevronRight } from 'lucide-react';
 
@@ -23,12 +22,12 @@ const CourseHero: React.FC<CourseHeroProps> = ({ mainImage }) => {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-white">
             <span className="block">Dois cursos completos para dominar automação:</span>
             <span className="block glow-text mt-2">n8n Completo</span>
-            <span className="block text-purple-400 mt-1" style={{ textShadow: '0 0 5px rgba(168, 85, 247, 0.5)' }}>+ Make (Integromat)</span>
+            <span className="block text-make-purple mt-1" style={{ textShadow: '0 0 5px rgba(139, 92, 246, 0.5)' }}>+ Make (Integromat)</span>
           </h1>
           
           <p className="text-lg md:text-xl text-cyber-light/90 mb-8 max-w-3xl mx-auto">
             <span className="text-cyber-bright-green">n8n:</span> Crie agentes de IA rápido, fácil e sem código<br/>
-            <span className="text-purple-400">Make:</span> Aprenda a construir automações poderosas sem programar
+            <span className="text-make-purple">Make:</span> Aprenda a construir automações poderosas sem programar
           </p>
           
           <div className="mt-10">

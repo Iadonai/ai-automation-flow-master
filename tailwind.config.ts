@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -70,6 +69,12 @@ export default {
 					'dark': '#1A1F2C',
 					'gray': '#8E9196',
 					'light': '#F5F5F5',
+				},
+				// Make color palette
+				make: {
+					'purple': '#8B5CF6',
+					'dark-purple': '#7C3AED',
+					'light-purple': '#A78BFA'
 				}
 			},
 			borderRadius: {

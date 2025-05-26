@@ -15,7 +15,7 @@ const CourseBenefits = () => {
   const getCourseColor = (course: string) => {
     switch (course) {
       case "n8n": return "text-cyber-bright-green";
-      case "make": return "text-purple-400";
+      case "make": return "text-make-purple";
       default: return "text-white";
     }
   };
@@ -28,7 +28,7 @@ const CourseBenefits = () => {
             Domine a Automação com IA <span className="glow-text">em dois cursos completos</span>
           </h2>
           <p className="text-lg text-cyber-gray mb-12">
-            Aprenda <span className="text-cyber-bright-green font-semibold">n8n</span> e <span className="text-purple-400 font-semibold">Make (Integromat)</span> para integrar IA, dados, APIs e automações, 100% prático e direto ao ponto.
+            Aprenda <span className="text-cyber-bright-green font-semibold">n8n</span> e <span className="text-make-purple font-semibold">Make (Integromat)</span> para integrar IA, dados, APIs e automações, 100% prático e direto ao ponto.
           </p>
         </div>
 
@@ -45,10 +45,10 @@ const CourseBenefits = () => {
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="flex-1">
               <h3 className="text-xl font-semibold mb-2 text-white">
-                Automação total com <span className="glow-text">n8n</span> + <span className="text-purple-400">Make</span>
+                Automação total com <span className="glow-text">n8n</span> + <span className="text-make-purple">Make</span>
               </h3>
               <p className="text-cyber-gray">
-                Aprenda as duas principais ferramentas de automação: <span className="text-cyber-bright-green">n8n</span> para agentes de IA avançados e <span className="text-purple-400">Make</span> para automações visuais poderosas.
+                Aprenda as duas principais ferramentas de automação: <span className="text-cyber-bright-green">n8n</span> para agentes de IA avançados e <span className="text-make-purple">Make</span> para automações visuais poderosas.
               </p>
             </div>
             <div className="flex-1">
